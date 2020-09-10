@@ -1,6 +1,6 @@
 # Docker Commands:
 
-| Command | Description | Example | 
+| Command | Description | Usage | 
 | --- | --- | --- |
 |	docker attach	|	Attach local standard input, output, and error streams to a running container	| docker attach topdemo |
 |	docker build	|	Build an image from a Dockerfile	| docker build http://server/context.tar.gz |
