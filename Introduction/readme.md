@@ -27,3 +27,9 @@
  - Developer Creates a Docker File which contains information about <b>Operation System Information, dependencies, Application code, etc</b>.
  - This Dockerfile is then <b>built into a docker Image</b>, which can be <b>pushed to Docker hub</b>.
  - This Docker Image can be <b>pulled</b> on to any system from Docker hub and made to <b>Run as a Container</b>.
+
+## Terminology in Docker:
+ - Docker File: Blueprint for Creating Docker Image
+ - Docker Image: Template for running Docker Images
+ - Container: A Running process
+
