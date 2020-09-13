@@ -19,6 +19,11 @@
  - Docker makes developer to do <b>Less Work</b>.
  - Docker based apps are <b>Easier to maintain & deploy</b>.
  - Works with <b>any language, any Operating System, any technology</b>.
+ 
+## How Docker Works? 
 
- 
- 
+![How Docker Works](https://github.com/Ayushmanglani/Docker/blob/master/Introduction/howdockerworks.png)
+
+ - Developer Creates a Docker File which contains information about <b>Operation System Information, dependencies, Application code, etc</b>.
+ - This Dockerfile is then <b>built into a docker Image</b>, which can be <b>pushed to Docker hub</b>.
+ - This Docker Image can be <b>pulled</b> on to any system from Docker hub and made to <b>Run as a Container</b>.
