@@ -112,8 +112,17 @@ A Docker image is a file, comprised of multiple layers, that is used to execute 
      ```
      docker run –t my-simple-docker
      ```
+     
+- <b>Step 8</b>: To Test
 
-- <b>Step 8</b>: If you want to push Image to Docker Hub:
+  Open a browser and go to URL
+     
+  ```
+  http://<IP>:5000                            => Welcome
+  http://<IP>:5000/how%20are%20you            => I am good, how about you?   
+  ```
+
+- <b>Step 9</b>: If you want to push Image to Docker Hub:
 
    - A.	Tag image to your account  
      ```
@@ -130,7 +139,10 @@ A Docker image is a file, comprised of multiple layers, that is used to execute 
      docker push
      ```
      
-- <b>Step 9</b>:	It's Done, Check the image in your dashboard on Dockerhub
+- <b>Step 10</b>:	It's Done, Check the image in your dashboard on Dockerhub
+
+
+
 
    
 
