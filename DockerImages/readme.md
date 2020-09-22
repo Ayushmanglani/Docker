@@ -14,23 +14,53 @@ A Docker image is a file, comprised of multiple layers, that is used to execute 
 
 ## Steps to create Docker Image:
 
- - <b>Step 1<u>: Create a directory and Enter in that Directory
+ - <b>Step 1</b>: Create a directory and Enter in that Directory
     
     ```mkdir my-docker```
     
     ```cd my-docker```
 
- - <b>Step 2<u>: Create Docker file:  This is a simple web application using Python Flask and MySQL database.
+ - <b>Step 2</b>: Create Docker file:  This is a simple web application using Python Flask and MySQL database.
  
     ```cat > Dockerfile ```     
  
- - <b>Step 3<u>: Update the created Docker File:     
+ - <b>Step 3</b>: Update the created Docker File:     
    
     ```vi Dockerfile ``` 
     
     Press 'i' (for cahnging mode to insert) and write the Docker File in Following way:
     
  
-   - i.	Mention Operating System:
+   - A.	Mention Operating System:
   
      ```FROM ubuntu ```
+
+   - B.	Install all required dependencies
+   
+     ```
+     RUN apt-get update
+     
+     RUN apt-get install –y python python-pip
+     ```
+   - C.	Install and Configure Web Server
+     
+     ```
+     RUN pip install flask
+     RUN pip install flask-mysql
+     ```
+     
+   - D.	Create/Copy the Source/Application code into <b>/opt/app.py</b>
+   
+     ```
+     COPY app.py /opt/app.py
+     ```
+
+   - E. Give Entry point
+     ```
+     ENTRYPOINT FLASK_APP-/opt/aap.py flask run –host-0.0.0.0
+     ```
+     
+ - <b>Step 4</b>: Create Application Code
+     
+
+
