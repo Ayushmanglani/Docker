@@ -10,5 +10,5 @@ A Docker image is a file, comprised of multiple layers, that is used to execute 
 
 ## How Docker File Actually Looks?
 
-![Docker File](https://github.com/Ayushmanglani/Docker/blob/master/DockerImages/LayeredArchitecture.JPG)
+![Docker File](https://github.com/Ayushmanglani/Docker/blob/master/DockerImages/dockerfile.JPG)
 
