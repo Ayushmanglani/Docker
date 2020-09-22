@@ -12,3 +12,20 @@ A Docker image is a file, comprised of multiple layers, that is used to execute 
 
 ![Docker File](https://github.com/Ayushmanglani/Docker/blob/master/DockerImages/dockerfile.JPG)
 
+## Steps to create Docker Image:
+
+ - <b>Step 1<u>: Create a directory and Enter in that Directory
+    ```
+    a.	mkdir my-docker
+    b.	cd my-docker
+
+    ```
+ - <b>Step 2<u>: Create Docker file
+     ```
+     a.	cat > Dockerfile 
+     ```
+ - <b>Step 3<u>: Create the Docker File: 
+    This is a simple web application using Python Flask and MySQL database.
+   - i.	Mention Operating System:
+  
+     ``` a. FROM ubuntu ```
