@@ -20,12 +20,17 @@ A Docker image is a file, comprised of multiple layers, that is used to execute 
     
     ```cd my-docker```
 
- - <b>Step 2<u>: Create Docker file
+ - <b>Step 2<u>: Create Docker file:  This is a simple web application using Python Flask and MySQL database.
  
     ```cat > Dockerfile ```     
  
- - <b>Step 3<u>: Create the Docker File: 
-    This is a simple web application using Python Flask and MySQL database.
+ - <b>Step 3<u>: Update the created Docker File:     
+   
+    ```vi Dockerfile ``` 
+    
+    Press 'i' (for cahnging mode to insert) and write the Docker File in Following way:
+    
+ 
    - i.	Mention Operating System:
   
      ```FROM ubuntu ```
