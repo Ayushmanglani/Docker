@@ -4,4 +4,11 @@ A Docker image is a read-only template that contains a set of instructions for c
 
 A Docker image is a file, comprised of multiple layers, that is used to execute code in a Docker container. An image is essentially built from the instructions for a complete and executable version of an application, which relies on the host OS kernel.
 
+## Structure of Docker File:
+
+![Docker File Architecture](https://github.com/Ayushmanglani/Docker/blob/master/DockerImages/LayeredArchitecture.JPG)
+
+## How Docker File Actually Looks?
+
+![Docker File](https://github.com/Ayushmanglani/Docker/blob/master/DockerImages/LayeredArchitecture.JPG)
 
