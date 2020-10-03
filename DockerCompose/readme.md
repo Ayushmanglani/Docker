@@ -10,7 +10,7 @@
 
 
 
-To Use a Compose three-step process:
+To Use a Docker Compose three-step process:
 
  1. Define your app’s environment with a Dockerfile so it can be reproduced anywhere.
 
