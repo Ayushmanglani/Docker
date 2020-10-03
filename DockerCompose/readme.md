@@ -10,7 +10,7 @@
 
 
 
-To Use a C three-step process:
+To Use a Compose three-step process:
 
 Define your app’s environment with a Dockerfile so it can be reproduced anywhere.
 
